@@ -1,18 +1,30 @@
 ﻿using GalaSoft.MvvmLight;
+using GalaSoft.MvvmLight.CommandWpf;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.Windows;
+using System.Windows.Input;
+using WpfApp2.Services;
 
 namespace WpfApp2.ViewModels
 {
-    class PhongViewModel : ViewModelBase
+    class PhongViewModel : ViewModelBase, IWindowService
     {
         PHONG _phong;
 
+        public ICommand ShowWindow { get; set; }
+
+        public PhongViewModel()
+        {
+            ShowWindow = new RelayCommand(() =>
+            {
+                showWindow(new PhieuThueViewModel());
+            });
+        }
         public PHONG Phong
         {
             get
@@ -56,7 +68,11 @@ namespace WpfApp2.ViewModels
             set { _phong.GHICHU = value; RaisePropertyChanged("GhiChu"); }
         }
 
-       
-
+        public void showWindow(object viewModel)
+        {
+            var win = new Window();
+            win.Content = viewModel;
+            win.Show();
+        }
     }
 }

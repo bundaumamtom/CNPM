@@ -16,13 +16,12 @@ using System.Windows.Shapes;
 namespace WpfApp2.Views
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for PhieuThue.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class PhieuThue : UserControl
     {
-        public MainWindow()
+        public PhieuThue()
         {
-            
             InitializeComponent();
         }
     }

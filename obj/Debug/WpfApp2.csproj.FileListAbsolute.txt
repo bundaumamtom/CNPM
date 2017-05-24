@@ -11,9 +11,7 @@ c:\users\chang\documents\visual studio 2017\Projects\WpfApp2\WpfApp2\obj\Debug\W
 c:\users\chang\documents\visual studio 2017\Projects\WpfApp2\WpfApp2\obj\Debug\WpfApp2.exe
 c:\users\chang\documents\visual studio 2017\Projects\WpfApp2\WpfApp2\obj\Debug\WpfApp2.pdb
 c:\users\chang\documents\visual studio 2017\Projects\WpfApp2\WpfApp2\obj\Debug\Views\MainWindow.g.cs
-c:\users\chang\documents\visual studio 2017\Projects\WpfApp2\WpfApp2\obj\Debug\Views\Phong.g.cs
 c:\users\chang\documents\visual studio 2017\Projects\WpfApp2\WpfApp2\obj\Debug\Views\MainWindow.baml
-c:\users\chang\documents\visual studio 2017\Projects\WpfApp2\WpfApp2\obj\Debug\Views\Phong.baml
 C:\Users\Chang\documents\visual studio 2017\Projects\WpfApp2\WpfApp2\bin\Debug\EntityFramework.dll
 C:\Users\Chang\documents\visual studio 2017\Projects\WpfApp2\WpfApp2\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Chang\documents\visual studio 2017\Projects\WpfApp2\WpfApp2\bin\Debug\GalaSoft.MvvmLight.dll
@@ -32,3 +30,9 @@ C:\Users\Chang\documents\visual studio 2017\Projects\WpfApp2\WpfApp2\bin\Debug\G
 C:\Users\Chang\documents\visual studio 2017\Projects\WpfApp2\WpfApp2\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
 C:\Users\Chang\documents\visual studio 2017\Projects\WpfApp2\WpfApp2\bin\Debug\Microsoft.Practices.ServiceLocation.xml
 C:\Users\Chang\documents\visual studio 2017\Projects\WpfApp2\WpfApp2\obj\Debug\WpfApp2_Content.g.cs
+C:\Users\Chang\documents\visual studio 2017\Projects\WpfApp2\WpfApp2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Chang\documents\visual studio 2017\Projects\WpfApp2\WpfApp2\obj\Debug\App.baml
+C:\Users\Chang\documents\visual studio 2017\Projects\WpfApp2\WpfApp2\obj\Debug\Views\Phong.g.cs
+C:\Users\Chang\documents\visual studio 2017\Projects\WpfApp2\WpfApp2\obj\Debug\Views\Phong.baml
+C:\Users\Chang\documents\visual studio 2017\Projects\WpfApp2\WpfApp2\obj\Debug\Views\PhieuThue.g.cs
+C:\Users\Chang\documents\visual studio 2017\Projects\WpfApp2\WpfApp2\obj\Debug\Views\PhieuThue.baml

@@ -1,9 +1,9 @@
-﻿<UserControl x:Class="WpfApp2.Phong"
+﻿<UserControl x:Class="WpfApp2.Views.Phong"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:WpfApp2"
+             xmlns:local="clr-namespace:WpfApp2.Views"
              mc:Ignorable="d" 
              d:DesignHeight="504" d:DesignWidth="760"  
              >
@@ -22,10 +22,10 @@
         <TextBox HorizontalAlignment="Left" Height="22" Margin="19,17,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Grid.Row="1"/>
         <Image Grid.Column="2" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Margin="10,0,0,0" Grid.Row="1" />
         <Label Content="Label" Grid.Column="2" HorizontalAlignment="Left" Margin="71,17,0,0" Grid.Row="1" VerticalAlignment="Top" Width="66" Height="26"/>
-        <ListView ItemsSource="{Binding DanhMucPhong}" Margin="27,106,72,60" Grid.Row="2" Grid.Column="1">
+        <ListView ItemsSource="{Binding DanhMucPhong}" Margin="25,52,0,64" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Grid.RowSpan="2" HorizontalAlignment="Stretch"   >
             <ListView.View>
                 <GridView>
-                    <GridViewColumn Header="TenPhong">
+                    <GridViewColumn  Width="auto" >
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
                                 <StackPanel>
@@ -33,9 +33,10 @@
                                 </StackPanel>
                             </DataTemplate>
                         </GridViewColumn.CellTemplate>
+                
                     </GridViewColumn>
 
-                    <GridViewColumn Header="LoaiPhong">
+                    <GridViewColumn Header="LoaiPhong" Width="100" >
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
                                 <StackPanel>
@@ -45,7 +46,7 @@
                         </GridViewColumn.CellTemplate>
                     </GridViewColumn>
 
-                    <GridViewColumn Header="DonGia">
+                    <GridViewColumn Header="DonGia" Width="100">
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
                                 <StackPanel>
@@ -55,7 +56,7 @@
                         </GridViewColumn.CellTemplate>
                     </GridViewColumn>
 
-                    <GridViewColumn Header="TinhTrang">
+                    <GridViewColumn Header="TinhTrang" Width="100">
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
                                 <StackPanel>
@@ -65,7 +66,7 @@
                         </GridViewColumn.CellTemplate>
                     </GridViewColumn>
 
-                    <GridViewColumn Header="GhiChu">
+                    <GridViewColumn Header="GhiChu" Width="100">
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
                                 <StackPanel>
@@ -77,6 +78,7 @@
                 </GridView>
             </ListView.View>
         </ListView>
+        <Button Content="Button" Command="{Binding ShowWindow}" Grid.Column="1" HorizontalAlignment="Left" Margin="183,39,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75"/>
 
     </Grid>
 

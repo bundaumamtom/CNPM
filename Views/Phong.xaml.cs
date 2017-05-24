@@ -14,7 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WpfApp2.ViewModels;
 
-namespace WpfApp2
+namespace WpfApp2.Views
 {
     /// <summary>
     /// Interaction logic for Phong.xaml
